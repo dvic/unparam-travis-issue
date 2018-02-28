@@ -4,5 +4,5 @@ go:
   - 1.10.x
 
 script:
-  - go get -u mvdan.cc/unparam
+  - go get -u mvdan.cc/unparam github.com/golang/mock/gomock github.com/golang/mock/mockgen
   - unparam --debug ./...
